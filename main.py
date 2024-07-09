@@ -137,11 +137,10 @@ def usernameG():
 	n = ''.join(choice('qwertyuio1234567890pasdfghjklzxcvbnm') for i in range(1))
 	w = ''.join(choice('1234567890') for i in range(1))
 	k = ''.join(choice('qwertyuiopasdfghjklzxcvbnm') for i in range(1))
-	v1 = y+y+y+j+n
-	v2 = y+n+n+n+j
-	v3 = y+j+k+k+k
+	v1 = y+y+'_'+8+8
+	v2 = n+h+'_'+h+n
 	
-	ls = (v1,v2,v3)
+	ls = (v1,v2)
 	u = choice(ls)
 	return u
 # start checking
